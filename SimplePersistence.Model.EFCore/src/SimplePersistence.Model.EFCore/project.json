@@ -11,7 +11,12 @@
     "projectUrl": "https://github.com/SimplePersistence/SimplePersistence.Model.EFCore",
     "licenseUrl": "https://raw.githubusercontent.com/SimplePersistence/SimplePersistence.Model.EFCore/master/LICENSE",
     "iconUrl": "https://avatars3.githubusercontent.com/u/17026510",
-    "releaseNotes": ""
+    "releaseNotes": "",
+    "owners": [ "João Simões" ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/SimplePersistence/SimplePersistence.Model.EFCore"
+    }
   },
   "buildOptions": {
     "xmlDoc": true,
