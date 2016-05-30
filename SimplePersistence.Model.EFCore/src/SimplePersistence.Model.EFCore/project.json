@@ -1,0 +1,32 @@
+﻿{
+  "version": "3.0.0-alpha01",
+  "title": "SimplePersistence.Model.EFCore",
+  "description": "SimplePersistence.Model.EFCore extends the SimplePersistence.Model package by exposing dedicated Entity Framework Core extension methods and classes.",
+  "authors": [ "João Simões" ],
+  "language": "en-US",
+  "copyright": "Copyright © 2016 SimplePersistence",
+  "packOptions": {
+    "summary": "SimplePersistence.Model implementation for Entity Framework Core",
+    "tags": [ "database", "model", "persistence", "Entity Framework Core", "EFCore" ],
+    "projectUrl": "https://github.com/SimplePersistence/SimplePersistence.Model.EFCore",
+    "licenseUrl": "https://raw.githubusercontent.com/SimplePersistence/SimplePersistence.Model.EFCore/master/LICENSE",
+    "iconUrl": "https://avatars3.githubusercontent.com/u/17026510",
+    "releaseNotes": ""
+  },
+  "buildOptions": {
+    "xmlDoc": true
+  },
+
+  "frameworks": {
+    "net451": { },
+    "netcore5": { },
+    "netstandard1.3": {
+      "imports": [ "netcore5" ]
+    }
+  },
+
+  "dependencies": {
+    "Microsoft.EntityFrameworkCore": "1.0.0-rc2-final",
+    "SimplePersistence.Model": "3.2.1"
+  }
+}
