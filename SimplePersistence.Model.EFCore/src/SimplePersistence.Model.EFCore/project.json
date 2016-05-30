@@ -14,7 +14,9 @@
     "releaseNotes": ""
   },
   "buildOptions": {
-    "xmlDoc": true
+    "xmlDoc": true,
+    "keyFile": "SimplePersistence.snk",
+    "optimize": true
   },
 
   "frameworks": {
