@@ -25,7 +25,6 @@
 
   "frameworks": {
     "net451": { },
-    "netcore5": { },
     "netstandard1.3": {
       "imports": [ "netcore5" ]
     }
@@ -33,6 +32,6 @@
 
   "dependencies": {
     "Microsoft.EntityFrameworkCore": "1.0.0-rc2-final",
-    "SimplePersistence.Model": "3.2.1"
+    "SimplePersistence.Model": "3.3.0"
   }
 }
