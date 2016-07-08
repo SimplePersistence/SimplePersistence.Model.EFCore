@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A27C38C0-7C97-43B2-8DA7-E309BEEA8750}"
 EndProject
@@ -11,6 +11,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	EndProjectSection
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SimplePersistence.Model.EFCore", "src\SimplePersistence.Model.EFCore\SimplePersistence.Model.EFCore.xproj", "{0EFB7207-8EC8-48A2-9C31-5F22D52C8930}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{58FEB047-64EF-4E6C-BE63-617D950B1B27}"
+	ProjectSection(SolutionItems) = preProject
+		tools\SimplePersistence.PublicKey = tools\SimplePersistence.PublicKey
+		tools\SimplePersistence.snk = tools\SimplePersistence.snk
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,5 +34,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0EFB7207-8EC8-48A2-9C31-5F22D52C8930} = {A27C38C0-7C97-43B2-8DA7-E309BEEA8750}
+		{58FEB047-64EF-4E6C-BE63-617D950B1B27} = {50B2E4D5-241E-40BF-9ABF-3E9FD348EC6A}
 	EndGlobalSection
 EndGlobal
