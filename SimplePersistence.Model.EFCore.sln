@@ -18,6 +18,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{58FEB047
 		tools\SimplePersistence.snk = tools\SimplePersistence.snk
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "git", "git", "{04DFD6A5-0219-4426-AEE1-92E7F3285D9E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,5 +41,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{0EFB7207-8EC8-48A2-9C31-5F22D52C8930} = {A27C38C0-7C97-43B2-8DA7-E309BEEA8750}
 		{58FEB047-64EF-4E6C-BE63-617D950B1B27} = {50B2E4D5-241E-40BF-9ABF-3E9FD348EC6A}
+		{04DFD6A5-0219-4426-AEE1-92E7F3285D9E} = {50B2E4D5-241E-40BF-9ABF-3E9FD348EC6A}
 	EndGlobalSection
 EndGlobal
