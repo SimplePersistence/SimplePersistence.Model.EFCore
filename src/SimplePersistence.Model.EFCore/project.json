@@ -1,5 +1,5 @@
 ﻿{
-  "version": "3.3.0-alpha01",
+  "version": "3.3.0-rc01",
   "title": "SimplePersistence.Model.EFCore",
   "description": "SimplePersistence.Model.EFCore extends the SimplePersistence.Model package by exposing dedicated Entity Framework Core extension methods and classes.",
   "authors": [ "João Simões" ],
